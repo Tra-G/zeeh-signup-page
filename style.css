@@ -164,7 +164,7 @@ body{
     }
 
     .main{
-        width: 400px;
+        width: 500px;
         height: 700px;
     }
     .sect1{
@@ -181,14 +181,21 @@ body{
 
     .sect2{
         position: absolute;
-        left: 50px;
+        left: 30px;
         margin-top: 60px;
         margin-left: unset;
     }
 
     .sect2-content{
-        line-height: 40px;
+        line-height: 47px;
     }
+
+    .sect2-content label{
+        display: block;
+        font-family: sans-serif;
+        line-height: 30px;
+    } 
+    
 
     .design-layout{
         display: none;
@@ -204,7 +211,7 @@ body{
     }
 
     .sect2-content input{
-        width: 85%;
+        width: 90%;
         height: 50px;
         padding: 0 20px;
         font-size: 15px;
@@ -212,7 +219,7 @@ body{
     }
 
     .sect2-btn button{
-        width: 85%;
+        width: 90%;
         height: 50px;
         background-color: #001AFF;
         color: #fff;
