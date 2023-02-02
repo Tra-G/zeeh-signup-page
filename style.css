@@ -69,7 +69,6 @@ body{
     position: relative;
     left: 180px;
     margin-top: 50px;
-    /*height: 800px; */
 }
 
 
@@ -152,4 +151,38 @@ body{
     text-align: center;
     font-size: 15px;
     color: #6A6A6A;
+}
+
+@media screen and (max-width: 900px) {
+
+    body{
+        height: 700px;
+    }
+    .sect1{
+        display: none;
+    }
+
+    .sect2{
+        position: unset;
+        left: unset;
+        margin-top: 30px;
+        margin-left: 31px;
+    }
+
+    .design-layout{
+        display: none;
+    }
+
+    .sect2-container{
+        width: 415px;
+    }
+
+    .sect2-content input{
+        width: 100%;
+        height: 48px;
+        padding: 0 20px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
 }
