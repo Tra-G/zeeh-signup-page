@@ -25,8 +25,10 @@ body{
 }
 
 .sect1-image{
-    width: 284.79px;
-    height: 254px;
+    width: 350px;
+    height: 300px;
+    /*width: 284.79px;
+    height: 254px; */
     margin-left: 150px;
     margin-top: 230px;
 }
@@ -160,15 +162,28 @@ body{
         height: unset;
         width: unset;
     }
+
+    .main{
+        width: 400px;
+        height: 700px;
+    }
     .sect1{
         display: none;
     }
 
+    .sect1-image{
+        width: 284.79px;
+        height: 254px;
+        margin-left: unset;
+        margin-top: unset;
+    }
+  
+
     .sect2{
-        position: unset;
-        left: unset;
-        margin-top: 50px;
-        margin-left: 37px;
+        position: absolute;
+        left: 50px;
+        margin-top: 60px;
+        margin-left: unset;
     }
 
     .sect2-content{
@@ -189,7 +204,7 @@ body{
     }
 
     .sect2-content input{
-        width: 310px;
+        width: 85%;
         height: 50px;
         padding: 0 20px;
         font-size: 15px;
@@ -197,7 +212,7 @@ body{
     }
 
     .sect2-btn button{
-        width: 310px;
+        width: 85%;
         height: 50px;
         background-color: #001AFF;
         color: #fff;
