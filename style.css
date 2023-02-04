@@ -165,7 +165,7 @@ a:hover{
 
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
     body{
         height: unset;
         width: unset;
@@ -193,7 +193,7 @@ a:hover{
         justify-content: center;
         align-items: center;
         position: absolute;
-        left: 24px;
+        left: 55px;
         margin-top: 60px;
         margin-left: unset;
     }
@@ -223,7 +223,7 @@ a:hover{
     }
 
     .sect2-content input{
-        width: 90%;
+        width: 420px;
         height: 50px;
         padding: 0 20px;
         font-size: 15px;
@@ -231,7 +231,7 @@ a:hover{
     }
 
     .sect2-btn button{
-        width: 90%;
+        width: 420px;
         height: 50px;
         background-color: #001AFF;
         color: #fff;
@@ -242,7 +242,11 @@ a:hover{
     }
     
     .sect2-checkbox span{
-        font-size: 15px;
+        font-size: 18px;
+    }
+
+    .sect2-signup{
+        font-size: 18px;
     }
 }
 
@@ -255,7 +259,7 @@ a:hover{
     }
 
     .main{
-        width: 450px;
+        width: unset;
         height: unset;
     }
 
@@ -276,7 +280,7 @@ a:hover{
         justify-content: center;
         align-items: center;
         position: absolute;
-        left: 24px;
+        left: 38px;
         margin-top: 60px;
         margin-left: unset;
     }
@@ -306,7 +310,7 @@ a:hover{
     }
 
     .sect2-content input{
-        width: 90%;
+        width: 100%;
         height: 50px;
         padding: 0 20px;
         font-size: 15px;
@@ -314,7 +318,7 @@ a:hover{
     }
 
     .sect2-btn button{
-        width: 90%;
+        width: 100%;
         height: 50px;
         background-color: #001AFF;
         color: #fff;
@@ -360,7 +364,7 @@ a:hover{
         justify-content: center;
         align-items: center;
         position: absolute;
-        left: 24px;
+        left: 26px;
         margin-top: 60px;
         margin-left: unset;
     }
@@ -390,7 +394,7 @@ a:hover{
     }
 
     .sect2-content input{
-        width: 100%;
+        width: 95%;
         height: 50px;
         padding: 0 20px;
         font-size: 15px;
@@ -398,7 +402,7 @@ a:hover{
     }
 
     .sect2-btn button{
-        width: 100%;
+        width: 95%;
         height: 50px;
         background-color: #001AFF;
         color: #fff;
