@@ -165,16 +165,17 @@ a:hover{
 
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width:400px) {
     body{
         height: unset;
         width: unset;
     }
 
     .main{
-        width: 300px;
-        height: 700px;
+        width: unset;
+        height: unset;
     }
+
     .sect1{
         display: none;
     }
@@ -239,12 +240,90 @@ a:hover{
         font-size: 15px;
         font-weight: 600;
     }
-
     
-    
-
     .sect2-checkbox span{
         font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    body{
+        height: 120px;
+        width: unset;
+    }
+
+    .main{
+        width: unset;
+        height: unset;
+    }
+
+    .sect1{
+        display: none;
+    }
+
+    .sect1-image{
+        width: 284.79px;
+        height: 254px;
+        margin-left: unset;
+        margin-top: unset;
+    }
+  
+
+    .sect2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 24px;
+        margin-top: 60px;
+        margin-left: unset;
+    }
+
+    .sect2-content{
+        line-height: 47px;
+    }
+
+    .sect2-content label{
+        display: block;
+        font-family: sans-serif;
+        line-height: 30px;
+    } 
+    
+
+    .design-layout{
+        display: none;
+    }
+
+    .sect2-container{
+        width: unset;
+    }
+
+    .inputs{
+        line-height: 40px;
+        margin-top: 30px;
+    }
+
+    .sect2-content input{
+        width: 90%;
+        height: 45px;
+        padding: 0 20px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .sect2-btn button{
+        width: 90%;
+        height: 45px;
+        background-color: #001AFF;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    
+    .sect2-checkbox span{
+        font-size: 13px;
     }
 }
 
