@@ -364,7 +364,7 @@ a:hover{
         justify-content: center;
         align-items: center;
         position: absolute;
-        left: 26px;
+        left: 31px;
         margin-top: 60px;
         margin-left: unset;
     }
@@ -394,7 +394,7 @@ a:hover{
     }
 
     .sect2-content input{
-        width: 95%;
+        width: 93%;
         height: 50px;
         padding: 0 20px;
         font-size: 15px;
@@ -402,7 +402,7 @@ a:hover{
     }
 
     .sect2-btn button{
-        width: 95%;
+        width: 93%;
         height: 50px;
         background-color: #001AFF;
         color: #fff;
